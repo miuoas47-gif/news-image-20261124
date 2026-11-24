@@ -4,21 +4,15 @@
 [![rank](https://make.fun/badge/news-image-20261124/miuoas47-gif/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 [![reward](https://make.fun/badge/news-image-20261124/miuoas47-gif/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
-24 November 2026 in One Image — a newspaper front page summing up the day's world news: the deadly factory fire in Banten, Indonesia; the Ukraine war at sea and at home; COP31 ending divided in Antalya; Trump's ignored outreach to Kim Jong Un; plus Alcaraz, Verstappen and Nvidia in the day's round-up. Running `main.py` copies `entry.png` (1024×683) to `$MAKEFUN_OUTPUT_DIR/entry.png`.
-
-## What's in the image
-
-- **Lead story** — factory fire in Banten, Indonesia: at least 24 dead, around 30 missing.
-- **Ukraine war** — Russian cargo ship ablaze in the Gulf of Finland; strikes on the Kyiv region; a corvette reported ablaze at Benghazi, Libya.
-- **Climate** — COP31 in Antalya closes without agreement on fossil-fuel phase-out language.
-- **Diplomacy** — Pyongyang rebuffs Trump's attempts to revive dialogue with Kim Jong Un.
-- **Also today** — Alcaraz wins his first ATP Finals title; Verstappen takes the Las Vegas Grand Prix; Nvidia rallies as Jensen Huang returns; India–Nepal flag off the Saryu–Kamala Express.
+24 November 2026 in One Image — a program that writes one image summing up the world's news of Tuesday 24 November 2026: NATO sending AWACS early-warning aircraft to Poland after Russian missiles landed there, Ukraine sinking a Russian warship in Libya, the U.S.–Iran standoff in the Strait of Hormuz, Jensen Huang's return as Nvidia chief executive, the collapse of the COP climate talks, and the factory fire in Indonesia that killed at least 24 people.
 
 ## Run it
 
 ```sh
-MAKEFUN_OUTPUT_DIR=out python3 main.py
+python3 main.py
 ```
+
+`main.py` takes no arguments and copies `entry.png` (1024×683, PNG) to `$MAKEFUN_OUTPUT_DIR/entry.png`, byte-identical on every run.
 
 ---
 
